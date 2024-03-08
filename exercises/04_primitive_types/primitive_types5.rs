@@ -10,4 +10,8 @@ fn main() {
     let (name, age) = cat;
 
     println!("{} is {} years old.", name, age);
+
+    let s1 = String::from("hello");
+    let s2 = s1;
+    println!("{}", s1)
 }
